@@ -1,0 +1,724 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35CBA19922845218005EBFD8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CBA19822845218005EBFD8 /* AppDelegate.m */; };
+		35CBA19C22845218005EBFD8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CBA19B22845218005EBFD8 /* ViewController.m */; };
+		35CBA19F22845218005EBFD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35CBA19D22845218005EBFD8 /* Main.storyboard */; };
+		35CBA1A12284521A005EBFD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35CBA1A02284521A005EBFD8 /* Assets.xcassets */; };
+		35CBA1A42284521A005EBFD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35CBA1A22284521A005EBFD8 /* LaunchScreen.storyboard */; };
+		35CBA1A72284521A005EBFD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CBA1A62284521A005EBFD8 /* main.m */; };
+		35CBA1BF228454EB005EBFD8 /* WHUCalendarYMSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CBA1AF228454EB005EBFD8 /* WHUCalendarYMSelectView.m */; };
+		35CBA1C0228454EB005EBFD8 /* WHUCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CBA1B0228454EB005EBFD8 /* WHUCalendarView.m */; };
+		35CBA1C1228454EB005EBFD8 /* WHUCalendarCal.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CBA1B1228454EB005EBFD8 /* WHUCalendarCal.m */; };
+		35CBA1C2228454EB005EBFD8 /* WHUCalendarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CBA1B2228454EB005EBFD8 /* WHUCalendarItem.m */; };
+		35CBA1C3228454EB005EBFD8 /* WHUCalDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CBA1B4228454EB005EBFD8 /* WHUCalDrawView.m */; };
+		35CBA1C5228454EB005EBFD8 /* WHUCalendarPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CBA1B8228454EB005EBFD8 /* WHUCalendarPopView.m */; };
+		35CBA1F022845BDC005EBFD8 /* IQTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CBA1CC22845BDC005EBFD8 /* IQTextView.m */; };
+		35CBA1F122845BDC005EBFD8 /* IQToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CBA1D022845BDC005EBFD8 /* IQToolbar.m */; };
+		35CBA1F222845BDC005EBFD8 /* IQTitleBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CBA1D222845BDC005EBFD8 /* IQTitleBarButtonItem.m */; };
+		35CBA1F322845BDC005EBFD8 /* IQBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CBA1D322845BDC005EBFD8 /* IQBarButtonItem.m */; };
+		35CBA1F422845BDC005EBFD8 /* IQUIView+IQKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CBA1D422845BDC005EBFD8 /* IQUIView+IQKeyboardToolbar.m */; };
+		35CBA1F522845BDC005EBFD8 /* IQPreviousNextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CBA1D522845BDC005EBFD8 /* IQPreviousNextView.m */; };
+		35CBA1F622845BDC005EBFD8 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 35CBA1DD22845BDC005EBFD8 /* IQKeyboardManager.bundle */; };
+		35CBA1F722845BDC005EBFD8 /* IQKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CBA1E122845BDC005EBFD8 /* IQKeyboardManager.m */; };
+		35CBA1F822845BDC005EBFD8 /* IQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CBA1E322845BDC005EBFD8 /* IQNSArray+Sort.m */; };
+		35CBA1F922845BDC005EBFD8 /* IQUIWindow+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CBA1E422845BDC005EBFD8 /* IQUIWindow+Hierarchy.m */; };
+		35CBA1FA22845BDC005EBFD8 /* IQUITextFieldView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CBA1E622845BDC005EBFD8 /* IQUITextFieldView+Additions.m */; };
+		35CBA1FB22845BDC005EBFD8 /* IQUIScrollView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CBA1E722845BDC005EBFD8 /* IQUIScrollView+Additions.m */; };
+		35CBA1FC22845BDC005EBFD8 /* IQUIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CBA1E822845BDC005EBFD8 /* IQUIView+Hierarchy.m */; };
+		35CBA1FD22845BDC005EBFD8 /* IQUIViewController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CBA1ED22845BDC005EBFD8 /* IQUIViewController+Additions.m */; };
+		35CBA1FE22845BDC005EBFD8 /* IQKeyboardReturnKeyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CBA1EF22845BDC005EBFD8 /* IQKeyboardReturnKeyHandler.m */; };
+		35CBA20222845BE5005EBFD8 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CBA20122845BE5005EBFD8 /* UINavigationController+FDFullscreenPopGesture.m */; };
+		35CBA20622845C00005EBFD8 /* XHToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CBA20422845C00005EBFD8 /* XHToast.m */; };
+		35CBA20B22845DBF005EBFD8 /* AddNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CBA20922845DBF005EBFD8 /* AddNewViewController.m */; };
+		35CBA20C22845DBF005EBFD8 /* AddNewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35CBA20A22845DBF005EBFD8 /* AddNewViewController.xib */; };
+		35CBA20F22845EB3005EBFD8 /* XTBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CBA20D22845EB3005EBFD8 /* XTBaseViewController.m */; };
+		35CBA21222845EC1005EBFD8 /* XTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CBA21122845EC1005EBFD8 /* XTNavigationController.m */; };
+		35CBA224228461D5005EBFD8 /* XTUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CBA214228461D5005EBFD8 /* XTUtil.m */; };
+		35CBA23922846235005EBFD8 /* UIAlertView+block.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CBA22C22846235005EBFD8 /* UIAlertView+block.m */; };
+		35CBA23A22846235005EBFD8 /* UIView+frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CBA22D22846235005EBFD8 /* UIView+frame.m */; };
+		35CBA23B22846235005EBFD8 /* UIImage+function.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CBA23022846235005EBFD8 /* UIImage+function.m */; };
+		35CBA23C22846235005EBFD8 /* UIView+animation.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CBA23122846235005EBFD8 /* UIView+animation.m */; };
+		35CBA23D22846235005EBFD8 /* NSDictionary+safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CBA23422846235005EBFD8 /* NSDictionary+safe.m */; };
+		35CBA23E22846235005EBFD8 /* NSString+function.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CBA23522846235005EBFD8 /* NSString+function.m */; };
+		FC10FE9C687267B4E78B90CD /* libPods-doctorCalendar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FFFC48F6C7DA7BD7CF60D601 /* libPods-doctorCalendar.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		35CBA19422845218005EBFD8 /* doctorCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = doctorCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35CBA19722845218005EBFD8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		35CBA19822845218005EBFD8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		35CBA19A22845218005EBFD8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		35CBA19B22845218005EBFD8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		35CBA19E22845218005EBFD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		35CBA1A02284521A005EBFD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		35CBA1A32284521A005EBFD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		35CBA1A52284521A005EBFD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35CBA1A62284521A005EBFD8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		35CBA1AF228454EB005EBFD8 /* WHUCalendarYMSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHUCalendarYMSelectView.m; sourceTree = "<group>"; };
+		35CBA1B0228454EB005EBFD8 /* WHUCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHUCalendarView.m; sourceTree = "<group>"; };
+		35CBA1B1228454EB005EBFD8 /* WHUCalendarCal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHUCalendarCal.m; sourceTree = "<group>"; };
+		35CBA1B2228454EB005EBFD8 /* WHUCalendarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHUCalendarItem.m; sourceTree = "<group>"; };
+		35CBA1B3228454EB005EBFD8 /* WHUCalendarPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHUCalendarPopView.h; sourceTree = "<group>"; };
+		35CBA1B4228454EB005EBFD8 /* WHUCalDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHUCalDrawView.m; sourceTree = "<group>"; };
+		35CBA1B6228454EB005EBFD8 /* WHUCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHUCalendarView.h; sourceTree = "<group>"; };
+		35CBA1B7228454EB005EBFD8 /* WHUCalendarYMSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHUCalendarYMSelectView.h; sourceTree = "<group>"; };
+		35CBA1B8228454EB005EBFD8 /* WHUCalendarPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHUCalendarPopView.m; sourceTree = "<group>"; };
+		35CBA1B9228454EB005EBFD8 /* WHUCalendarMarcro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHUCalendarMarcro.h; sourceTree = "<group>"; };
+		35CBA1BA228454EB005EBFD8 /* WHUCalendarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHUCalendarItem.h; sourceTree = "<group>"; };
+		35CBA1BB228454EB005EBFD8 /* WHUCalendarCal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHUCalendarCal.h; sourceTree = "<group>"; };
+		35CBA1BC228454EB005EBFD8 /* WHUCalDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHUCalDrawView.h; sourceTree = "<group>"; };
+		35CBA1C722845616005EBFD8 /* UIMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIMacros.h; sourceTree = "<group>"; };
+		35CBA1CC22845BDC005EBFD8 /* IQTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQTextView.m; sourceTree = "<group>"; };
+		35CBA1CD22845BDC005EBFD8 /* IQTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQTextView.h; sourceTree = "<group>"; };
+		35CBA1CF22845BDC005EBFD8 /* IQUIView+IQKeyboardToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIView+IQKeyboardToolbar.h"; sourceTree = "<group>"; };
+		35CBA1D022845BDC005EBFD8 /* IQToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQToolbar.m; sourceTree = "<group>"; };
+		35CBA1D122845BDC005EBFD8 /* IQPreviousNextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQPreviousNextView.h; sourceTree = "<group>"; };
+		35CBA1D222845BDC005EBFD8 /* IQTitleBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQTitleBarButtonItem.m; sourceTree = "<group>"; };
+		35CBA1D322845BDC005EBFD8 /* IQBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQBarButtonItem.m; sourceTree = "<group>"; };
+		35CBA1D422845BDC005EBFD8 /* IQUIView+IQKeyboardToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIView+IQKeyboardToolbar.m"; sourceTree = "<group>"; };
+		35CBA1D522845BDC005EBFD8 /* IQPreviousNextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQPreviousNextView.m; sourceTree = "<group>"; };
+		35CBA1D622845BDC005EBFD8 /* IQToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQToolbar.h; sourceTree = "<group>"; };
+		35CBA1D722845BDC005EBFD8 /* IQBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQBarButtonItem.h; sourceTree = "<group>"; };
+		35CBA1D822845BDC005EBFD8 /* IQTitleBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQTitleBarButtonItem.h; sourceTree = "<group>"; };
+		35CBA1DA22845BDC005EBFD8 /* IQKeyboardManagerConstantsInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerConstantsInternal.h; sourceTree = "<group>"; };
+		35CBA1DB22845BDC005EBFD8 /* IQKeyboardManagerConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerConstants.h; sourceTree = "<group>"; };
+		35CBA1DD22845BDC005EBFD8 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		35CBA1DE22845BDC005EBFD8 /* IQKeyboardReturnKeyHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardReturnKeyHandler.h; sourceTree = "<group>"; };
+		35CBA1DF22845BDC005EBFD8 /* IQKeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManager.h; sourceTree = "<group>"; };
+		35CBA1E022845BDC005EBFD8 /* KeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardManager.h; sourceTree = "<group>"; };
+		35CBA1E122845BDC005EBFD8 /* IQKeyboardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQKeyboardManager.m; sourceTree = "<group>"; };
+		35CBA1E322845BDC005EBFD8 /* IQNSArray+Sort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQNSArray+Sort.m"; sourceTree = "<group>"; };
+		35CBA1E422845BDC005EBFD8 /* IQUIWindow+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIWindow+Hierarchy.m"; sourceTree = "<group>"; };
+		35CBA1E522845BDC005EBFD8 /* IQUIViewController+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIViewController+Additions.h"; sourceTree = "<group>"; };
+		35CBA1E622845BDC005EBFD8 /* IQUITextFieldView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUITextFieldView+Additions.m"; sourceTree = "<group>"; };
+		35CBA1E722845BDC005EBFD8 /* IQUIScrollView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIScrollView+Additions.m"; sourceTree = "<group>"; };
+		35CBA1E822845BDC005EBFD8 /* IQUIView+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIView+Hierarchy.m"; sourceTree = "<group>"; };
+		35CBA1E922845BDC005EBFD8 /* IQUIWindow+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIWindow+Hierarchy.h"; sourceTree = "<group>"; };
+		35CBA1EA22845BDC005EBFD8 /* IQNSArray+Sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQNSArray+Sort.h"; sourceTree = "<group>"; };
+		35CBA1EB22845BDC005EBFD8 /* IQUIScrollView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIScrollView+Additions.h"; sourceTree = "<group>"; };
+		35CBA1EC22845BDC005EBFD8 /* IQUITextFieldView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUITextFieldView+Additions.h"; sourceTree = "<group>"; };
+		35CBA1ED22845BDC005EBFD8 /* IQUIViewController+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIViewController+Additions.m"; sourceTree = "<group>"; };
+		35CBA1EE22845BDC005EBFD8 /* IQUIView+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIView+Hierarchy.h"; sourceTree = "<group>"; };
+		35CBA1EF22845BDC005EBFD8 /* IQKeyboardReturnKeyHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQKeyboardReturnKeyHandler.m; sourceTree = "<group>"; };
+		35CBA20022845BE5005EBFD8 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		35CBA20122845BE5005EBFD8 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		35CBA20422845C00005EBFD8 /* XHToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHToast.m; sourceTree = "<group>"; };
+		35CBA20522845C00005EBFD8 /* XHToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHToast.h; sourceTree = "<group>"; };
+		35CBA20822845DBF005EBFD8 /* AddNewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddNewViewController.h; sourceTree = "<group>"; };
+		35CBA20922845DBF005EBFD8 /* AddNewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddNewViewController.m; sourceTree = "<group>"; };
+		35CBA20A22845DBF005EBFD8 /* AddNewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddNewViewController.xib; sourceTree = "<group>"; };
+		35CBA20D22845EB3005EBFD8 /* XTBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTBaseViewController.m; sourceTree = "<group>"; };
+		35CBA20E22845EB3005EBFD8 /* XTBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTBaseViewController.h; sourceTree = "<group>"; };
+		35CBA21022845EC1005EBFD8 /* XTNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTNavigationController.h; sourceTree = "<group>"; };
+		35CBA21122845EC1005EBFD8 /* XTNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTNavigationController.m; sourceTree = "<group>"; };
+		35CBA214228461D5005EBFD8 /* XTUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTUtil.m; sourceTree = "<group>"; };
+		35CBA223228461D5005EBFD8 /* XTUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTUtil.h; sourceTree = "<group>"; };
+		35CBA22C22846235005EBFD8 /* UIAlertView+block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+block.m"; sourceTree = "<group>"; };
+		35CBA22D22846235005EBFD8 /* UIView+frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+frame.m"; sourceTree = "<group>"; };
+		35CBA22E22846235005EBFD8 /* NSString+function.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+function.h"; sourceTree = "<group>"; };
+		35CBA22F22846235005EBFD8 /* NSDictionary+safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+safe.h"; sourceTree = "<group>"; };
+		35CBA23022846235005EBFD8 /* UIImage+function.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+function.m"; sourceTree = "<group>"; };
+		35CBA23122846235005EBFD8 /* UIView+animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+animation.m"; sourceTree = "<group>"; };
+		35CBA23222846235005EBFD8 /* UIAlertView+block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+block.h"; sourceTree = "<group>"; };
+		35CBA23322846235005EBFD8 /* Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Category.h; sourceTree = "<group>"; };
+		35CBA23422846235005EBFD8 /* NSDictionary+safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+safe.m"; sourceTree = "<group>"; };
+		35CBA23522846235005EBFD8 /* NSString+function.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+function.m"; sourceTree = "<group>"; };
+		35CBA23622846235005EBFD8 /* UIView+frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+frame.h"; sourceTree = "<group>"; };
+		35CBA23722846235005EBFD8 /* UIView+animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+animation.h"; sourceTree = "<group>"; };
+		35CBA23822846235005EBFD8 /* UIImage+function.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+function.h"; sourceTree = "<group>"; };
+		625E40E5A23E5D8AFD709D97 /* Pods-doctorCalendar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-doctorCalendar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-doctorCalendar/Pods-doctorCalendar.debug.xcconfig"; sourceTree = "<group>"; };
+		9F85E998D9D5ABF229FFCD74 /* Pods-doctorCalendar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-doctorCalendar.release.xcconfig"; path = "Pods/Target Support Files/Pods-doctorCalendar/Pods-doctorCalendar.release.xcconfig"; sourceTree = "<group>"; };
+		FFFC48F6C7DA7BD7CF60D601 /* libPods-doctorCalendar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-doctorCalendar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35CBA19122845218005EBFD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC10FE9C687267B4E78B90CD /* libPods-doctorCalendar.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35CBA18B22845218005EBFD8 = {
+			isa = PBXGroup;
+			children = (
+				35CBA19622845218005EBFD8 /* doctorCalendar */,
+				35CBA19522845218005EBFD8 /* Products */,
+				9E31460880E12822BD246F34 /* Pods */,
+				BD00B9FCA0CBA890B8DDD1C0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		35CBA19522845218005EBFD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35CBA19422845218005EBFD8 /* doctorCalendar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35CBA19622845218005EBFD8 /* doctorCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				35CBA213228461D5005EBFD8 /* Util */,
+				35CBA21022845EC1005EBFD8 /* XTNavigationController.h */,
+				35CBA21122845EC1005EBFD8 /* XTNavigationController.m */,
+				35CBA20E22845EB3005EBFD8 /* XTBaseViewController.h */,
+				35CBA20D22845EB3005EBFD8 /* XTBaseViewController.m */,
+				35CBA20722845DA1005EBFD8 /* AddNew */,
+				35CBA1C922845BCF005EBFD8 /* 3RD */,
+				35CBA1C82284561B005EBFD8 /* PCH */,
+				35CBA1AD228454EB005EBFD8 /* WHUCalendar */,
+				35CBA19722845218005EBFD8 /* AppDelegate.h */,
+				35CBA19822845218005EBFD8 /* AppDelegate.m */,
+				35CBA19A22845218005EBFD8 /* ViewController.h */,
+				35CBA19B22845218005EBFD8 /* ViewController.m */,
+				35CBA19D22845218005EBFD8 /* Main.storyboard */,
+				35CBA1A02284521A005EBFD8 /* Assets.xcassets */,
+				35CBA1A22284521A005EBFD8 /* LaunchScreen.storyboard */,
+				35CBA1A52284521A005EBFD8 /* Info.plist */,
+				35CBA1A62284521A005EBFD8 /* main.m */,
+			);
+			path = doctorCalendar;
+			sourceTree = "<group>";
+		};
+		35CBA1AD228454EB005EBFD8 /* WHUCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				35CBA1AE228454EB005EBFD8 /* Classes */,
+			);
+			path = WHUCalendar;
+			sourceTree = "<group>";
+		};
+		35CBA1AE228454EB005EBFD8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				35CBA1AF228454EB005EBFD8 /* WHUCalendarYMSelectView.m */,
+				35CBA1B0228454EB005EBFD8 /* WHUCalendarView.m */,
+				35CBA1B1228454EB005EBFD8 /* WHUCalendarCal.m */,
+				35CBA1B2228454EB005EBFD8 /* WHUCalendarItem.m */,
+				35CBA1B3228454EB005EBFD8 /* WHUCalendarPopView.h */,
+				35CBA1B4228454EB005EBFD8 /* WHUCalDrawView.m */,
+				35CBA1B6228454EB005EBFD8 /* WHUCalendarView.h */,
+				35CBA1B7228454EB005EBFD8 /* WHUCalendarYMSelectView.h */,
+				35CBA1B8228454EB005EBFD8 /* WHUCalendarPopView.m */,
+				35CBA1B9228454EB005EBFD8 /* WHUCalendarMarcro.h */,
+				35CBA1BA228454EB005EBFD8 /* WHUCalendarItem.h */,
+				35CBA1BB228454EB005EBFD8 /* WHUCalendarCal.h */,
+				35CBA1BC228454EB005EBFD8 /* WHUCalDrawView.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		35CBA1C82284561B005EBFD8 /* PCH */ = {
+			isa = PBXGroup;
+			children = (
+				35CBA1C722845616005EBFD8 /* UIMacros.h */,
+			);
+			path = PCH;
+			sourceTree = "<group>";
+		};
+		35CBA1C922845BCF005EBFD8 /* 3RD */ = {
+			isa = PBXGroup;
+			children = (
+				35CBA20322845C00005EBFD8 /* XHToast */,
+				35CBA1FF22845BE5005EBFD8 /* FDFullscreenPopGesture */,
+				35CBA1CA22845BDC005EBFD8 /* IQKeyboardManager */,
+			);
+			path = 3RD;
+			sourceTree = "<group>";
+		};
+		35CBA1CA22845BDC005EBFD8 /* IQKeyboardManager */ = {
+			isa = PBXGroup;
+			children = (
+				35CBA1CB22845BDC005EBFD8 /* IQTextView */,
+				35CBA1CE22845BDC005EBFD8 /* IQToolbar */,
+				35CBA1D922845BDC005EBFD8 /* Constants */,
+				35CBA1DC22845BDC005EBFD8 /* Resources */,
+				35CBA1DE22845BDC005EBFD8 /* IQKeyboardReturnKeyHandler.h */,
+				35CBA1DF22845BDC005EBFD8 /* IQKeyboardManager.h */,
+				35CBA1E022845BDC005EBFD8 /* KeyboardManager.h */,
+				35CBA1E122845BDC005EBFD8 /* IQKeyboardManager.m */,
+				35CBA1E222845BDC005EBFD8 /* Categories */,
+				35CBA1EF22845BDC005EBFD8 /* IQKeyboardReturnKeyHandler.m */,
+			);
+			path = IQKeyboardManager;
+			sourceTree = "<group>";
+		};
+		35CBA1CB22845BDC005EBFD8 /* IQTextView */ = {
+			isa = PBXGroup;
+			children = (
+				35CBA1CC22845BDC005EBFD8 /* IQTextView.m */,
+				35CBA1CD22845BDC005EBFD8 /* IQTextView.h */,
+			);
+			path = IQTextView;
+			sourceTree = "<group>";
+		};
+		35CBA1CE22845BDC005EBFD8 /* IQToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				35CBA1CF22845BDC005EBFD8 /* IQUIView+IQKeyboardToolbar.h */,
+				35CBA1D022845BDC005EBFD8 /* IQToolbar.m */,
+				35CBA1D122845BDC005EBFD8 /* IQPreviousNextView.h */,
+				35CBA1D222845BDC005EBFD8 /* IQTitleBarButtonItem.m */,
+				35CBA1D322845BDC005EBFD8 /* IQBarButtonItem.m */,
+				35CBA1D422845BDC005EBFD8 /* IQUIView+IQKeyboardToolbar.m */,
+				35CBA1D522845BDC005EBFD8 /* IQPreviousNextView.m */,
+				35CBA1D622845BDC005EBFD8 /* IQToolbar.h */,
+				35CBA1D722845BDC005EBFD8 /* IQBarButtonItem.h */,
+				35CBA1D822845BDC005EBFD8 /* IQTitleBarButtonItem.h */,
+			);
+			path = IQToolbar;
+			sourceTree = "<group>";
+		};
+		35CBA1D922845BDC005EBFD8 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				35CBA1DA22845BDC005EBFD8 /* IQKeyboardManagerConstantsInternal.h */,
+				35CBA1DB22845BDC005EBFD8 /* IQKeyboardManagerConstants.h */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		35CBA1DC22845BDC005EBFD8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				35CBA1DD22845BDC005EBFD8 /* IQKeyboardManager.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		35CBA1E222845BDC005EBFD8 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				35CBA1E322845BDC005EBFD8 /* IQNSArray+Sort.m */,
+				35CBA1E422845BDC005EBFD8 /* IQUIWindow+Hierarchy.m */,
+				35CBA1E522845BDC005EBFD8 /* IQUIViewController+Additions.h */,
+				35CBA1E622845BDC005EBFD8 /* IQUITextFieldView+Additions.m */,
+				35CBA1E722845BDC005EBFD8 /* IQUIScrollView+Additions.m */,
+				35CBA1E822845BDC005EBFD8 /* IQUIView+Hierarchy.m */,
+				35CBA1E922845BDC005EBFD8 /* IQUIWindow+Hierarchy.h */,
+				35CBA1EA22845BDC005EBFD8 /* IQNSArray+Sort.h */,
+				35CBA1EB22845BDC005EBFD8 /* IQUIScrollView+Additions.h */,
+				35CBA1EC22845BDC005EBFD8 /* IQUITextFieldView+Additions.h */,
+				35CBA1ED22845BDC005EBFD8 /* IQUIViewController+Additions.m */,
+				35CBA1EE22845BDC005EBFD8 /* IQUIView+Hierarchy.h */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		35CBA1FF22845BE5005EBFD8 /* FDFullscreenPopGesture */ = {
+			isa = PBXGroup;
+			children = (
+				35CBA20022845BE5005EBFD8 /* UINavigationController+FDFullscreenPopGesture.h */,
+				35CBA20122845BE5005EBFD8 /* UINavigationController+FDFullscreenPopGesture.m */,
+			);
+			path = FDFullscreenPopGesture;
+			sourceTree = "<group>";
+		};
+		35CBA20322845C00005EBFD8 /* XHToast */ = {
+			isa = PBXGroup;
+			children = (
+				35CBA20422845C00005EBFD8 /* XHToast.m */,
+				35CBA20522845C00005EBFD8 /* XHToast.h */,
+			);
+			path = XHToast;
+			sourceTree = "<group>";
+		};
+		35CBA20722845DA1005EBFD8 /* AddNew */ = {
+			isa = PBXGroup;
+			children = (
+				35CBA20822845DBF005EBFD8 /* AddNewViewController.h */,
+				35CBA20922845DBF005EBFD8 /* AddNewViewController.m */,
+				35CBA20A22845DBF005EBFD8 /* AddNewViewController.xib */,
+			);
+			path = AddNew;
+			sourceTree = "<group>";
+		};
+		35CBA213228461D5005EBFD8 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				35CBA22B22846235005EBFD8 /* Category */,
+				35CBA214228461D5005EBFD8 /* XTUtil.m */,
+				35CBA223228461D5005EBFD8 /* XTUtil.h */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		35CBA22B22846235005EBFD8 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				35CBA22C22846235005EBFD8 /* UIAlertView+block.m */,
+				35CBA22D22846235005EBFD8 /* UIView+frame.m */,
+				35CBA22E22846235005EBFD8 /* NSString+function.h */,
+				35CBA22F22846235005EBFD8 /* NSDictionary+safe.h */,
+				35CBA23022846235005EBFD8 /* UIImage+function.m */,
+				35CBA23122846235005EBFD8 /* UIView+animation.m */,
+				35CBA23222846235005EBFD8 /* UIAlertView+block.h */,
+				35CBA23322846235005EBFD8 /* Category.h */,
+				35CBA23422846235005EBFD8 /* NSDictionary+safe.m */,
+				35CBA23522846235005EBFD8 /* NSString+function.m */,
+				35CBA23622846235005EBFD8 /* UIView+frame.h */,
+				35CBA23722846235005EBFD8 /* UIView+animation.h */,
+				35CBA23822846235005EBFD8 /* UIImage+function.h */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		9E31460880E12822BD246F34 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				625E40E5A23E5D8AFD709D97 /* Pods-doctorCalendar.debug.xcconfig */,
+				9F85E998D9D5ABF229FFCD74 /* Pods-doctorCalendar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BD00B9FCA0CBA890B8DDD1C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FFFC48F6C7DA7BD7CF60D601 /* libPods-doctorCalendar.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35CBA19322845218005EBFD8 /* doctorCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35CBA1AA2284521A005EBFD8 /* Build configuration list for PBXNativeTarget "doctorCalendar" */;
+			buildPhases = (
+				CFC34221A9732E283007FBA9 /* [CP] Check Pods Manifest.lock */,
+				35CBA19022845218005EBFD8 /* Sources */,
+				35CBA19122845218005EBFD8 /* Frameworks */,
+				35CBA19222845218005EBFD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = doctorCalendar;
+			productName = doctorCalendar;
+			productReference = 35CBA19422845218005EBFD8 /* doctorCalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35CBA18C22845218005EBFD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Leon;
+				TargetAttributes = {
+					35CBA19322845218005EBFD8 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 35CBA18F22845218005EBFD8 /* Build configuration list for PBXProject "doctorCalendar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 35CBA18B22845218005EBFD8;
+			productRefGroup = 35CBA19522845218005EBFD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35CBA19322845218005EBFD8 /* doctorCalendar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35CBA19222845218005EBFD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35CBA20C22845DBF005EBFD8 /* AddNewViewController.xib in Resources */,
+				35CBA1A42284521A005EBFD8 /* LaunchScreen.storyboard in Resources */,
+				35CBA1A12284521A005EBFD8 /* Assets.xcassets in Resources */,
+				35CBA1F622845BDC005EBFD8 /* IQKeyboardManager.bundle in Resources */,
+				35CBA19F22845218005EBFD8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CFC34221A9732E283007FBA9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-doctorCalendar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35CBA19022845218005EBFD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35CBA1FA22845BDC005EBFD8 /* IQUITextFieldView+Additions.m in Sources */,
+				35CBA20B22845DBF005EBFD8 /* AddNewViewController.m in Sources */,
+				35CBA1FB22845BDC005EBFD8 /* IQUIScrollView+Additions.m in Sources */,
+				35CBA1FD22845BDC005EBFD8 /* IQUIViewController+Additions.m in Sources */,
+				35CBA1C5228454EB005EBFD8 /* WHUCalendarPopView.m in Sources */,
+				35CBA1F222845BDC005EBFD8 /* IQTitleBarButtonItem.m in Sources */,
+				35CBA224228461D5005EBFD8 /* XTUtil.m in Sources */,
+				35CBA1FE22845BDC005EBFD8 /* IQKeyboardReturnKeyHandler.m in Sources */,
+				35CBA1C3228454EB005EBFD8 /* WHUCalDrawView.m in Sources */,
+				35CBA1F922845BDC005EBFD8 /* IQUIWindow+Hierarchy.m in Sources */,
+				35CBA1F422845BDC005EBFD8 /* IQUIView+IQKeyboardToolbar.m in Sources */,
+				35CBA23E22846235005EBFD8 /* NSString+function.m in Sources */,
+				35CBA1F822845BDC005EBFD8 /* IQNSArray+Sort.m in Sources */,
+				35CBA21222845EC1005EBFD8 /* XTNavigationController.m in Sources */,
+				35CBA20F22845EB3005EBFD8 /* XTBaseViewController.m in Sources */,
+				35CBA1F722845BDC005EBFD8 /* IQKeyboardManager.m in Sources */,
+				35CBA19C22845218005EBFD8 /* ViewController.m in Sources */,
+				35CBA1F122845BDC005EBFD8 /* IQToolbar.m in Sources */,
+				35CBA23922846235005EBFD8 /* UIAlertView+block.m in Sources */,
+				35CBA1F022845BDC005EBFD8 /* IQTextView.m in Sources */,
+				35CBA1C2228454EB005EBFD8 /* WHUCalendarItem.m in Sources */,
+				35CBA23C22846235005EBFD8 /* UIView+animation.m in Sources */,
+				35CBA20622845C00005EBFD8 /* XHToast.m in Sources */,
+				35CBA1FC22845BDC005EBFD8 /* IQUIView+Hierarchy.m in Sources */,
+				35CBA1F522845BDC005EBFD8 /* IQPreviousNextView.m in Sources */,
+				35CBA23A22846235005EBFD8 /* UIView+frame.m in Sources */,
+				35CBA1F322845BDC005EBFD8 /* IQBarButtonItem.m in Sources */,
+				35CBA20222845BE5005EBFD8 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
+				35CBA1A72284521A005EBFD8 /* main.m in Sources */,
+				35CBA1C0228454EB005EBFD8 /* WHUCalendarView.m in Sources */,
+				35CBA23D22846235005EBFD8 /* NSDictionary+safe.m in Sources */,
+				35CBA19922845218005EBFD8 /* AppDelegate.m in Sources */,
+				35CBA1BF228454EB005EBFD8 /* WHUCalendarYMSelectView.m in Sources */,
+				35CBA1C1228454EB005EBFD8 /* WHUCalendarCal.m in Sources */,
+				35CBA23B22846235005EBFD8 /* UIImage+function.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		35CBA19D22845218005EBFD8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35CBA19E22845218005EBFD8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		35CBA1A22284521A005EBFD8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35CBA1A32284521A005EBFD8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		35CBA1A82284521A005EBFD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		35CBA1A92284521A005EBFD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		35CBA1AB2284521A005EBFD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 625E40E5A23E5D8AFD709D97 /* Pods-doctorCalendar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AZHB237462;
+				INFOPLIST_FILE = doctorCalendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Yillia.doctorCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		35CBA1AC2284521A005EBFD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F85E998D9D5ABF229FFCD74 /* Pods-doctorCalendar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AZHB237462;
+				INFOPLIST_FILE = doctorCalendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Yillia.doctorCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35CBA18F22845218005EBFD8 /* Build configuration list for PBXProject "doctorCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35CBA1A82284521A005EBFD8 /* Debug */,
+				35CBA1A92284521A005EBFD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35CBA1AA2284521A005EBFD8 /* Build configuration list for PBXNativeTarget "doctorCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35CBA1AB2284521A005EBFD8 /* Debug */,
+				35CBA1AC2284521A005EBFD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35CBA18C22845218005EBFD8 /* Project object */;
+}
